@@ -42,7 +42,7 @@ struct ContentView: View {
                                 "You Hate Arrays!"]
                 
                 messageNumber += 1
-                if messageNumber > 3 {
+                if messageNumber == message.count {
                     messageNumber = 0
                 }
                 
